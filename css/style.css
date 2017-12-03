@@ -6,8 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Lato', sans-serif;
-	background: #fff;  
+	font-family: 'baru', sans-serif;
+	background: rgb(38, 124, 30);  
 }
 body a{
 	transition: 0.5s all;
@@ -40,7 +40,7 @@ body a:focus {
   
 /*-- header --*/ 
 h1.w3lslogo{
-    background: #FFC107;
+    background: rgb(7, 85, 255);
 	font-family: 'Aguafina Script', cursive;
 }
 h1.w3lslogo a {
@@ -104,7 +104,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	opacity: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #FFC107;
+    color: rgb(10, 61, 8);
     background: black;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -190,7 +190,7 @@ div#scrollzipPoint {
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	background-color: #FFC107;
+	background-color: rgb(24, 201, 83);
 	-webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 	-moz-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
 	-o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
@@ -286,11 +286,11 @@ div#scrollzipPoint {
 }
 .about{
 	position:relative;
-	background:#f6f5f5;
+	background:#3c8f29;
 } 
 h3.agileits-title {
     font-size: 4em;
-    color: #ffc107;
+    color: #184880;
     text-transform: capitalize;
     margin-bottom: 0.6em;
 }  
@@ -534,7 +534,7 @@ p{
 }
 .login-form input[type="submit"]:hover {
     background: transparent;
-    color:#ffc107;   
+    color:#43c04e;   
 }  
 /*-- //login-form --*/ 
 /*-- services --*/ 
@@ -655,7 +655,7 @@ p{
 .cbp-ig-grid .cbp-ig-title:before {
     content: '';
     position: absolute;
-    background: #ffc107;
+    background: #4cd853;
     width: 160px;
     height: 3px;
     top: 0px;
@@ -1058,7 +1058,7 @@ a.breaking {
 }
 .blog-agileinfo h6 a {
     display: inline-block;
-    color: #ffc107;
+    color: #1607ff;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all; 
 	transition:.5s all;
@@ -2510,6 +2510,11 @@ h3.agileits-title {
     font-family: nuy;
     src: url(../fonts/baru.ttf);
 }
+/* closes responsive*/
+$ ('.navbar-collapse ul ui a').click(funciton() {
+    $('.navbar-toggle:visible').click();
+});
+
 .font-bagus{
-    /* font-family: nuy !important; */
+     font-family: nuy !important; 
 }
